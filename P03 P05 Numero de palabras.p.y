@@ -1,0 +1,6 @@
+s = str(input("dime una frase"))
+#print(len(s))
+#print(len(s)//2)
+print(s[:len(s)//2])
+print(s[len(s)//2:])
+print(str(s[len(s)//2:]) + " " + (s[:len(s)//2]))
