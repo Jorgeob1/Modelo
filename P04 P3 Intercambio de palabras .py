@@ -1,0 +1,8 @@
+s = str(input("dime una frase"))
+print(s.find(" "))
+espacio =(s.find(" "))
+palabra1 = (s[:espacio])
+print(palabra1)
+palabra2 = (s[espacio:])
+print(palabra2)
+print((s[espacio:] +" " +  str(s[:espacio])))
